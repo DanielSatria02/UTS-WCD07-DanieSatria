@@ -119,7 +119,7 @@ console.log(getInitials('Beyonce Carter'), "Beyonce Carter");
 
 <details><summary>Hello, this is the second part of midterm.</summary><p>
 
-## Details on second coding assignment: (Due 16 March 2025 12:00 PM)
+## Details on second question of the midterm.
 
 #### Write a code to convert fahrenheit to celcius:
 - input: 100
