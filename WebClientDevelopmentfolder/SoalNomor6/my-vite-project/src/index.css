@@ -1,0 +1,173 @@
+:root {
+  --container-bg-color: #25223c; /* Default background color */
+}
+
+.h3 {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: var(--container-bg-color); /* Use the CSS variable */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.back-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #445065;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #332b45;
+}
+
+.details-page {
+  text-align: center;
+}
+
+
+/* Responsive Design for screens 600px or smaller */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 10px;
+  }
+
+  .image {
+    width: 90px;
+    height: auto;
+  }
+
+  .sort-button, .back-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid.one-column {
+  grid-template-columns: 1fr; /* Single column layout */
+}
+
+.grid.two-columns {
+  grid-template-columns: repeat(2, 1fr); /* Two column layout */
+}
+
+.sort-buttons {
+  display: flex;
+  gap: 90px; /* Space between the buttons */
+  margin: 10px;
+}
+
+.sort-button {
+  margin: 10px 0;
+  padding: 5px 10px;
+  font-size: 8px;
+  font-weight: bold;
+  background-color: #302640;
+  color: rgb(204, 195, 222);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sort-button:hover {
+  background-color: #201e28;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+
+.header {
+  position: relative;
+  height: 20px; /* Reduce the height */
+}
+
+.header-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: #272439; 
+  z-index: -1; 
+}
+
+.pokemon-back-button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.pokemon-back-button:focus {
+  outline: none;
+}
+
+.Pokemon {
+  position: relative;
+  width: 40px; 
+  height: auto;
+  top: 0px; 
+  left: 0px; 
+}
+
+.sort-dropdown {
+  margin-right: 0px;
+  padding: 10px;
+  font-size: 5px;
+  width: 100px; 
+  height: 5px; 
+}
+
+.magnify-icon {
+  position: absolute;
+  top: 0px; 
+  right: 0px; 
+  width: 10px; 
+  height: auto; 
+  cursor: pointer; 
+}
+
+.grid.one-column {
+  grid-template-columns: 1fr; /* Single column layout */
+  justify-items: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}

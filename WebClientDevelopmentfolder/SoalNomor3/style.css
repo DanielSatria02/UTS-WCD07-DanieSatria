@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+body {
+  background: linear-gradient(180deg, rgba(105, 131, 107, 0) 82.08%, rgba(235, 253, 236, 0.38) 100%);
+  background: rgb(16, 23, 17); /* Change this to your desired color */
+  min-height: 100vh;
+}
+
+.page {
+  width: 1040px;
+  margin: 0px auto;
+  padding-top: 64px;
+}
+
+/* Check margin */
+nav {
+  font-family: 'Mulish', sans-serif;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Check list styling */
+nav ul {
+  display: flex;
+  gap: 48px;
+}
+
+/* Check list link style */
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Make text bold on hover */
+nav ul li a:hover {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 88px;
+}
+
+/* Check margin and font styling */
+.text h1 {
+  font-family: 'Mulish', sans-serif;
+}
+
+/* Check font styling */
+.text h1 span {
+  font-family: 'Mulish', sans-serif; /* Change font family */
+  font-weight: 700; /* Make the text bold */
+  color: #b5ddbb; /* Change text color */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.text h1 {
+  font-family: 'Mulish', sans-serif; /* Change font family */
+  font-weight: 700; /* Make the text bold */
+  color: #f4f8f5; /* Change text color */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+.text p {
+  font-family: 'Mulish', sans-serif; /* Change font family */
+  font-weight: 700; /* Make the text bold */
+  color: #f2fcf4; /* Change text color */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+footer {
+  font-family: 'Mulish', sans-serif; /* Change font family */
+  font-weight: 700; /* Make the text bold */
+  color: #f2fcf4; /* Change text color */
+  text-transform: uppercase; /* Transform text to uppercase */
+}
+
+/* Check font styling */
+.text p {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/* Check font styling and make sure the button is rounded */
+.text button {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  gap: 8px;
+}
+
+/* Handle when user hover on the button */
+.text button:hover {
+  background-color:rgb(7, 86, 26);
+  color: rgb(150, 236, 177); /* Change text color */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Check the text styling */
+footer {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+/* Check the text styling */
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+
+.rescaled-image {
+  width: 500px; /* Set your desired width */
+  height: auto; /* Maintain aspect ratio */
+}
